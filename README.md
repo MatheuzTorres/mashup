@@ -75,6 +75,17 @@ mvn spring-boot:run
 Endpoint:
 ```
 GET /api/mashup?caixas={quantidade}&distancia={km}
+ou
+GET /api/mashup/
+Descrição: carrega página HTML com formulário para simular venda de tomate.
+
+Produz: text/html.
+
+Acesso
+No navegador, acesse:
+
+http://localhost:8080/api/mashup/
+Preencha quantidade e distância, clique em “Calcular Venda” e veja todos os detalhes do cálculo.
 ```
 caixas: número de caixas de tomate
 distancia: distância da entrega em km
